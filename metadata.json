@@ -1,0 +1,6 @@
+{
+  "name": "MW Notariaat — Notariskantoor Grootegast",
+  "description": "Vernieuwde website voor MW Notariaat te Grootegast. Heldere notariële zekerheid voor wonen, familie, erfrecht en ondernemingen in het Westerkwartier en Groningen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
