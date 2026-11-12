@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import notaryOfficeImage from '../../assets/images/notary_hero_office_1794492148246.jpg';
 import { PageId } from '../../types';
 import { OFFICE_INFO, SERVICE_CATEGORIES, TEAM_MEMBERS, REVIEWS, ARTICLES } from '../../data/notaryData';
 import { 
@@ -36,7 +37,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenTeamMember
         {/* Background Image with elegant scrim */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/notary_hero_office_1794492148246.jpg"
+            src={notaryOfficeImage}
             alt="MW Notariaat kantoor te Grootegast"
             className="w-full h-full object-cover opacity-25 scale-102 transition-transform duration-1000"
             referrerPolicy="no-referrer"
