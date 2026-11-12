@@ -1,4 +1,8 @@
 import { ServiceCategory, TeamMember, Article, Review } from '../types';
+import notaryRealEstateImage from '../assets/images/notary_real_estate_1794492149492.jpg';
+import notarySigningImage from '../assets/images/notary_signing_deed_1794492149314.jpg';
+import notaryOfficeImage from '../assets/images/notary_hero_office_1794492148246.jpg';
+import notaryBusinessImage from '../assets/images/notary_business_advisory_1794492152689.jpg';
 
 export const OFFICE_INFO = {
   name: 'MW Notariaat',
@@ -168,7 +172,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     title: 'Wonen & Hypotheek',
     shortDesc: 'Koopovereenkomsten, leveringsakten, hypotheken en eigendomsoverdracht in Noord-Nederland.',
     iconName: 'Home',
-    image: '/src/assets/images/notary_real_estate_1794492149492.jpg',
+    image: notaryRealEstateImage,
     leadParagraph: 'Bij de aankoop van een nieuw thuis of bedrijfspand komt veel kijken. MW Notariaat begeleidt kopers en verkopers in het Westerkwartier en Groningen bij elke stap van het proces: van het controleren van de koopovereenkomst tot het feestelijke moment van het passeren van de akte.',
     deeds: [
       {
@@ -228,7 +232,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     title: 'Familie & Relatie',
     shortDesc: 'Samenlevingscontracten, huwelijkse voorwaarden, geregistreerd partnerschap en scheiding.',
     iconName: 'HeartHandshake',
-    image: '/src/assets/images/notary_signing_deed_1794492149314.jpg',
+    image: notarySigningImage,
     leadParagraph: 'Liefde en juridische zakelijkheid gaan hand in hand. Door goede afspraken te maken als alles goed gaat, beschermt u elkaar en uw gezin tegen onvoorziene situaties in de toekomst. MW Notariaat zorgt voor een warme en heldere begeleiding.',
     deeds: [
       {
@@ -275,7 +279,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     title: 'Erven, Nalatenschap & Levenstestament',
     shortDesc: 'Testamenten, levenstestamenten, verklaring van erfrecht en professionele boedelafwikkeling.',
     iconName: 'Scroll',
-    image: '/src/assets/images/notary_hero_office_1794492148246.jpg',
+    image: notaryOfficeImage,
     leadParagraph: 'Nagedachtenis en vermogensbescherming vragen om fijngevoeligheid en deskundigheid. Wij helpen u de regie te behouden tijdens uw leven én zorgen dat uw wensen na uw overlijden vlekkeloos en fiscaal zo gunstig mogelijk worden uitgevoerd.',
     deeds: [
       {
@@ -331,7 +335,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     title: 'Onderneming & Zakelijk',
     shortDesc: 'BV oprichten, holdingstructuren, aandelenoverdracht, statutenwijziging en maatschapsovereenkomsten.',
     iconName: 'Building2',
-    image: '/src/assets/images/notary_business_advisory_1794492152689.jpg',
+    image: notaryBusinessImage,
     leadParagraph: 'Ondernemers in het Noorden schakelen MW Notariaat in voor heldere, zakelijke zekerheid. Wij denken mee over aansprakelijkheidsbeperking, fiscale flexibiliteit en continuïteit van uw onderneming, zonder ingewikkelde bureaucratie.',
     deeds: [
       {
@@ -378,7 +382,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     title: 'Agrarisch & Landelijk Recht',
     shortDesc: 'Vrijwillige kavelruil, pachtcontracten, levering landbouwgronden en agrarische bedrijfsoverdracht.',
     iconName: 'Tractor',
-    image: '/src/assets/images/notary_real_estate_1794492149492.jpg',
+    image: notaryRealEstateImage,
     leadParagraph: 'Het Westerkwartier en de omliggende provincies Groningen en Friesland kenmerken zich door een sterke agrarische sector. MW Notariaat heeft jarenlange ervaring met de specifieke fiscale en notariële dynamiek van boerenbedrijven, grondeigenaren en pachtsituaties.',
     deeds: [
       {
