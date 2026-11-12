@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import notaryOfficeImage from '../../assets/images/notary_hero_office_1794492148246.jpg';
 import { PageId } from '../../types';
 import { TEAM_MEMBERS, OFFICE_INFO } from '../../data/notaryData';
 import { 
@@ -101,7 +102,7 @@ export const AboutTeamPage: React.FC<AboutTeamPageProps> = ({
           <div className="lg:col-span-5">
             <div className="rounded-lg overflow-hidden border border-stone-200 shadow-md">
               <img
-                src="/src/assets/images/notary_hero_office_1794492148246.jpg"
+                src={notaryOfficeImage}
                 alt="Vergaderruimte MW Notariaat Grootegast"
                 className="w-full h-80 object-cover"
                 referrerPolicy="no-referrer"
